@@ -1,4 +1,6 @@
-# Fork of ApprenticeVR to fix arm64 7zip problem I fixed
+# Fork of ApprenticeVR to fix arm64 7zip problem I fixed (this does break the 64bit version*)
+
+* the binary used in the arm64 and 64bit linux is the same so i just replaced the 64bit binary with the arm64 binary so whenever i need to download on a arm64 machine i can use this fork
 
 ApprenticeVR is a modern, cross-platform desktop application built with Electron, React, and TypeScript, designed for managing and sideloading content onto Meta Quest devices. It aims to provide a user-friendly and feature-rich alternative to existing sideloading tools.
 
